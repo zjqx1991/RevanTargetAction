@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RevanMainModule_Example' do
+  pod 'RevanMainModule', :path => '../'
+
+  target 'RevanMainModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
