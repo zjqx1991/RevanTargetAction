@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F540241FCC89E90002CC75 /* RevanOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F540231FCC89E90002CC75 /* RevanOneViewController.m */; };
+		04F540271FCC8B1F0002CC75 /* RevanTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F540261FCC8B1F0002CC75 /* RevanTwoViewController.m */; };
 		0D938A1EC07661650A2FE25F /* Pods_RevanMainModule_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E158E5B71915DD4E0AA168 /* Pods_RevanMainModule_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04F540221FCC89E90002CC75 /* RevanOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevanOneViewController.h; sourceTree = "<group>"; };
+		04F540231FCC89E90002CC75 /* RevanOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevanOneViewController.m; sourceTree = "<group>"; };
+		04F540251FCC8B1F0002CC75 /* RevanTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevanTwoViewController.h; sourceTree = "<group>"; };
+		04F540261FCC8B1F0002CC75 /* RevanTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevanTwoViewController.m; sourceTree = "<group>"; };
 		05EAA618375B89CF6E298D80 /* Pods-RevanMainModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevanMainModule_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RevanMainModule_Example/Pods-RevanMainModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1C8F9127AE173B97B1C587A6 /* Pods_RevanMainModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RevanMainModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* RevanMainModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevanMainModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,10 +66,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97C476B2513FF56B0B464444 /* RevanMainModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RevanMainModule.podspec; path = ../RevanMainModule.podspec; sourceTree = "<group>"; };
-		9C538AE0A92ABF5BFF0B19C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		97C476B2513FF56B0B464444 /* RevanMainModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RevanMainModule.podspec; path = ../RevanMainModule.podspec; sourceTree = "<group>"; };
+		9C538AE0A92ABF5BFF0B19C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AAC9ED4B9924C51CA25D7755 /* Pods-RevanMainModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevanMainModule_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RevanMainModule_Tests/Pods-RevanMainModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AC74CC82B913B8EFA41C0E46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AC74CC82B913B8EFA41C0E46 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C30C046C85EB9E19698D2DCD /* Pods-RevanMainModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevanMainModule_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RevanMainModule_Tests/Pods-RevanMainModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E2AF99C87AE12FD61176B5E5 /* Pods-RevanMainModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RevanMainModule_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RevanMainModule_Example/Pods-RevanMainModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F2E158E5B71915DD4E0AA168 /* Pods_RevanMainModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RevanMainModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -145,6 +151,10 @@
 			children = (
 				6003F59C195388D20070C39A /* RevanAppDelegate.h */,
 				6003F59D195388D20070C39A /* RevanAppDelegate.m */,
+				04F540221FCC89E90002CC75 /* RevanOneViewController.h */,
+				04F540231FCC89E90002CC75 /* RevanOneViewController.m */,
+				04F540251FCC8B1F0002CC75 /* RevanTwoViewController.h */,
+				04F540261FCC8B1F0002CC75 /* RevanTwoViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* RevanViewController.h */,
 				6003F5A6195388D20070C39A /* RevanViewController.m */,
@@ -250,6 +260,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Revan;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -396,7 +409,9 @@
 			files = (
 				6003F59E195388D20070C39A /* RevanAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* RevanViewController.m in Sources */,
+				04F540241FCC89E90002CC75 /* RevanOneViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				04F540271FCC8B1F0002CC75 /* RevanTwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +494,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,7 +527,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -524,12 +539,15 @@
 			baseConfigurationReference = E2AF99C87AE12FD61176B5E5 /* Pods-RevanMainModule_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RevanMainModule/RevanMainModule-Prefix.pch";
 				INFOPLIST_FILE = "RevanMainModule/RevanMainModule-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -539,12 +557,15 @@
 			baseConfigurationReference = 05EAA618375B89CF6E298D80 /* Pods-RevanMainModule_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RevanMainModule/RevanMainModule-Prefix.pch";
 				INFOPLIST_FILE = "RevanMainModule/RevanMainModule-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

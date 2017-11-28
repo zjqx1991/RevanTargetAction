@@ -1,0 +1,32 @@
+{
+  "name": "RevanMainModule",
+  "version": "0.1.0",
+  "summary": "RevanMainModule",
+  "description": "RevanMainModule 主框架",
+  "homepage": "https://coding.net/u/zjqx/p/RevanMainModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Revan": "zjqx1991@163.com"
+  },
+  "source": {
+    "git": "https://git.coding.net/zjqx/RevanMainModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RevanMainModule/Classes/**/*",
+  "resource_bundles": {
+    "RevanMainModule": [
+      "RevanMainModule/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "RevanBaseModule/Category": [
+
+    ]
+  }
+}

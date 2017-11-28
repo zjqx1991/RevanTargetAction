@@ -1,3 +1,9 @@
+#官方source
+source 'https://github.com/CocoaPods/Specs.git'
+#私有source
+source 'https://git.coding.net/zjqx/RevanSpecs.git'
+
+
 use_frameworks!
 
 target 'RevanMainModule_Example' do
