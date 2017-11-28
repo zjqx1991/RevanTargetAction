@@ -1,6 +1,6 @@
 PODS:
   - RevanBaseModule/Category (0.4.0)
-  - RevanMainModule (0.1.0):
+  - RevanMainModule (0.2.0):
     - RevanBaseModule/Category
 
 DEPENDENCIES:
@@ -12,7 +12,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   RevanBaseModule: 4156320634603eb085313a51390631ee0176c98f
-  RevanMainModule: 8992ba5e8f21bdee4fa2ca49d0f8691b874a96bf
+  RevanMainModule: 884968f2f0044b653b581609a8113b20e0bff45f
 
 PODFILE CHECKSUM: 76a619fe0db6e858cb365ae623a19aa572d4b6ce
 

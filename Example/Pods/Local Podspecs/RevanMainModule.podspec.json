@@ -1,6 +1,6 @@
 {
   "name": "RevanMainModule",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "RevanMainModule",
   "description": "RevanMainModule 主框架",
   "homepage": "https://coding.net/u/zjqx/p/RevanMainModule",
@@ -13,15 +13,16 @@
   },
   "source": {
     "git": "https://git.coding.net/zjqx/RevanMainModule.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "RevanMainModule/Classes/**/*",
+  "source_files": "RevanMainModule/Classes/**/*.{h,m}",
   "resource_bundles": {
     "RevanMainModule": [
-      "RevanMainModule/Assets/*.png"
+      "RevanMainModule/Assets/RevanTabBar/*.png",
+      "RevanMainModule/Assets/RevanMiddle/*.xib"
     ]
   },
   "dependencies": {

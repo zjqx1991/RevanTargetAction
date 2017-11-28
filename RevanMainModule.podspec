@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RevanMainModule'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'RevanMainModule'
 
 # This description is used to generate tags and improve search results.
@@ -30,10 +30,10 @@ RevanMainModule 主框架
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'RevanMainModule/Classes/**/*'
+s.source_files = 'RevanMainModule/Classes/**/*.{h,m}'
   
   s.resource_bundles = {
-    'RevanMainModule' => ['RevanMainModule/Assets/*.png']
+    'RevanMainModule' => ['RevanMainModule/Assets/RevanTabBar/*.png','RevanMainModule/Assets/RevanMiddle/*.xib']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

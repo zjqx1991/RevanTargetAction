@@ -7,45 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06AB71598386C707A0672017E56D80AF /* RevanNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = E382EB0CEE86C3832138672FBDC67FDC /* RevanNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06AB71598386C707A0672017E56D80AF /* RevanNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 678F029172454033B939821BDA30335A /* RevanNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08BFC2FE0FDEDBAD5538AC48B0F907BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29B3F37050B79F57B0508AAA9F30079 /* Foundation.framework */; };
 		0FB14B7A3C35B4DF057EFF87D4A2C614 /* CALayer+RevanLayerAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E2842C2F3988506B843C7473385BB7 /* CALayer+RevanLayerAimate.m */; };
+		11F44D9BACA370A4426B5E3D32AE6032 /* zxy_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4151B6F1141B8B1EF9C53268671E41 /* zxy_icon@2x.png */; };
+		15F35557F3190F9C3F8D0143D29A6A46 /* RevanMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C7A6387057A1EE6B596930C90131ACC /* RevanMiddleView.xib */; };
 		165969B2A86E8FE8B97E484F45785C7B /* RevanBaseModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 835AD574232834BFB51EFB0E0C0B92EF /* RevanBaseModule-dummy.m */; };
-		16C58D48FCF4657F93917FF6304C1695 /* RevanTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B74772B6CBFD23EF160888B06189AA /* RevanTabBarController.m */; };
-		2D7B1B86CA618FE84360AEDADD1CB443 /* RevanMainModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E82D5673D9DBB5FD27BD0AD619D90A01 /* RevanMainModule-dummy.m */; };
-		30ACE5092E688B661129E6A5CEE15654 /* tabbar_np_loop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BF0B5812E381C5AFD644E23AF54A4B /* tabbar_np_loop@2x.png */; };
+		1C6C53137E64FCFE8DF67FBC6846DE67 /* RevanTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDFAD9975F41DF4EBEB8ED9FA9BC26C /* RevanTabBar.m */; };
+		28F43FF40C421D7828D0A3BE25960E87 /* tabbar_np_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C73BE7A7366BAB9F4276DC770B7ACD /* tabbar_np_play@2x.png */; };
+		29117D9ACF242F02882C982E857A5325 /* RevanNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 90F18F2B10FC805C5FC78F5DA3220B02 /* RevanNavigationBar.m */; };
 		38EC5DFC86AF7B3F4EA84C3E9534139C /* UIView+RevanView.h in Headers */ = {isa = PBXBuildFile; fileRef = D3673D43FB9983035C6671311B4B0F7B /* UIView+RevanView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39752BB2A21281A7CB5657FE6E934CE0 /* UIImage+RevanImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4910C33B3C38FBEF6A38945CE7D8F3DD /* UIImage+RevanImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A6253CA4E92F1C35F7FB830465D8F4D /* tabbar_np_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E76AEBCA24F36BBC9B6D53EB57EE436 /* tabbar_np_normal@2x.png */; };
 		41B82A7018FA90844E036852D74BC031 /* RevanMainModule.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF7831F4EE1C88126F333CDFC29849BD /* RevanMainModule.bundle */; };
-		41E681403DDD0901378A5DC30A6199F8 /* RevanTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1678637787E4469CFAAE45C1DAEA2BD4 /* RevanTabBar.m */; };
-		4613627EDA507FC20C2CEDFD69FDF949 /* RevanNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B05CA58062746CEE6F7AA993E65F89ED /* RevanNavigationBar.m */; };
 		4EA1F6C1D11685A6E54777B9EFBDB95C /* Pods-RevanMainModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAF521F61DBEC1397112B06493C1CA3A /* Pods-RevanMainModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5153CCEDCB33CB532F005A36F353D6E7 /* tabbar_np_playnon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D6CAE71497F9AFDEB6EC6480EC5DAB4 /* tabbar_np_playnon@2x.png */; };
 		519F99F9C5C2F30DEE91FF8C10668795 /* UIImage+RevanImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B917DDB57056FC08932FC9F3B4FE21 /* UIImage+RevanImage.m */; };
-		5BF80B39F5A2F6ECB2100C03F191F2D5 /* RevanMiddleView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 29AE8378004A1384FB7E16214103CD58 /* RevanMiddleView.xib */; };
 		5C662F295159C3FD16CC6AA8CE102438 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29B3F37050B79F57B0508AAA9F30079 /* Foundation.framework */; };
 		6195D3911B98B09D4BD52CCB509AD820 /* RevanBaseModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D362E3B5898C98A5C21CF19824942BB3 /* RevanBaseModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65A9E8254EAE43F286BED85309ABA132 /* zxy_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 435E9FEC6C6A9698A287DE8D19BAA582 /* zxy_icon@2x.png */; };
 		6A6808CE788DEB0DC2305000A4770773 /* Pods-RevanMainModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 899225EC2EB50683D7FB01D19820EE00 /* Pods-RevanMainModule_Example-dummy.m */; };
 		6BF7D9959ACB62D1E5F3E91F461AD1E0 /* RevanBaseModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17FF5D7FD96BC10EE11FB4DE92E87DAF /* RevanBaseModule.framework */; };
 		6C69BD3BD2C0ECC03FFA9FE4623DF32A /* RevanMainModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55CBBA149A63B5B717C828EF4AB158C4 /* RevanMainModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CB3E181B0ACAF09F59CD51ED8A70192 /* RevanMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842C35F75046846EDCCC58315D13DEB2 /* RevanMiddleView.m */; };
 		6F4D065F7E294873C43AA8204860AF0B /* Pods-RevanMainModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CAC86346901902ECD472E7301B0A64 /* Pods-RevanMainModule_Tests-dummy.m */; };
+		72B3863A02949F6F8DD55A5B3C33509A /* tabbar_np_loop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FF177F8666847D090BBA9E6E8AABD07 /* tabbar_np_loop@2x.png */; };
 		7441069C493BBE95FBA2143F63254309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29B3F37050B79F57B0508AAA9F30079 /* Foundation.framework */; };
-		8E7D20B90F876C7313226147BE06A99C /* RevanNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FACD26D6DD345786FA52BFE4BAB10AA /* RevanNavigationController.m */; };
-		954A8E77A193913A427106F23E022173 /* RevanTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E80291F7D04CEB921CD27958273EB583 /* RevanTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97D100A2FEA3A6361F76BCBE6A71E079 /* RevanTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 053F01851EE6EB9D28B26ED427962C84 /* RevanTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9AFF65EAFD28D3A5A817870B31114C8B /* tabbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 728A78444DAB44C1FD825EAFCBEA5FE6 /* tabbar_bg@2x.png */; };
+		954A8E77A193913A427106F23E022173 /* RevanTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = ABA69FBDFA1D7C88D586FD97396F74BA /* RevanTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97D100A2FEA3A6361F76BCBE6A71E079 /* RevanTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D2B920A06606850F5E802FB652C7BF /* RevanTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A144855FE87A89DA00E2AEC841D317F5 /* Pods-RevanMainModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D709D4DA3FA61E7985CED8E870E48790 /* Pods-RevanMainModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2B7A3221B8A9B766B7BB91E515C3DD6 /* tabbar_np_playnon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 405670E1B20D2E505E1BA5FD0EBE81B6 /* tabbar_np_playnon@2x.png */; };
+		A530C6ECC671EC16A0120D3F9A084954 /* RevanNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0704AC6723E4F62431A4F464D528FB44 /* RevanNavigationController.m */; };
+		A6E9C25CDE4E81C9E847A30B04B79752 /* RevanMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9EF137A1E2DFC47223C42C267FB97E /* RevanMiddleView.m */; };
 		A77C386BB203880214F8F6842ECEB69E /* CALayer+RevanLayerAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = A1004F45588C87DA35FCBE3F37B98297 /* CALayer+RevanLayerAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD3BAD96ED8DBCF44BEFAFDF46359385 /* RevanMiddleView.h in Headers */ = {isa = PBXBuildFile; fileRef = D66872B75FD0F4AA3B70E729EDDD6764 /* RevanMiddleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF189B1053F54DAA3ABA5D7B58CCA8E4 /* tabbar_np_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 093ADD8CA9E1195428AD408966801DFC /* tabbar_np_shadow@2x.png */; };
+		ABD184497A809E3DEABA4695D4CFA576 /* tabbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BB0FD99BFF1A336490E3C2E60F6A2D /* tabbar_bg@2x.png */; };
+		AD3BAD96ED8DBCF44BEFAFDF46359385 /* RevanMiddleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 20F96478DB955BC603AE74A18019F1E0 /* RevanMiddleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B220B7647163E4FDED6E9143C957782C /* tabbar_np_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F6AD81A5A33AAADD5A573822EF1E41A /* tabbar_np_shadow@2x.png */; };
+		B8E18C04531C85689401D9EAF38B410C /* RevanMainModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E82D5673D9DBB5FD27BD0AD619D90A01 /* RevanMainModule-dummy.m */; };
 		C1CFDEDFE7BFA6BA261C5F0A9DCF8133 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A29B3F37050B79F57B0508AAA9F30079 /* Foundation.framework */; };
-		C2F4DD9E1B6EAADF1EB52E261CF579D3 /* tabbar_np_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69248CDD9F9ADEA120282EACD93F0740 /* tabbar_np_play@2x.png */; };
 		C6A4DD295F09716FABDD1CE9F56D173A /* UIView+RevanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E7FEF946721CF4669067AD500D4C19 /* UIView+RevanView.m */; };
-		D9E03710E21E9C83EAF4303DAC76C833 /* tabbar_np_playshadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E6C1484607752891284F52499011BB /* tabbar_np_playshadow@2x.png */; };
-		FE1D040EE5ACECDF8D29034CC670F7F3 /* RevanNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = DC09F05A3AF4901257AC544C133E97AC /* RevanNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC9B19B815F95E531AC003C43400DA50 /* tabbar_np_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 100A69BD8B362AD848E95DDFB4BC92A0 /* tabbar_np_normal@2x.png */; };
+		E9BDA21CADFFE6FF1031507F81EB3C28 /* tabbar_np_playshadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27D22B12E04D906B5DEC0EA0A6A3460C /* tabbar_np_playshadow@2x.png */; };
+		F5EF0B5FD9126647E4878B60C9F42DF8 /* RevanTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56080B283DBCCE2C4460540F650D480A /* RevanTabBarController.m */; };
+		FE1D040EE5ACECDF8D29034CC670F7F3 /* RevanNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E482DFD4D4459578654F16038DC6A7F1 /* RevanNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,67 +81,67 @@
 
 /* Begin PBXFileReference section */
 		0136D608ECCAB37EA64CB00C3AD5FFA6 /* RevanMainModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RevanMainModule.modulemap; sourceTree = "<group>"; };
-		02B74772B6CBFD23EF160888B06189AA /* RevanTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanTabBarController.m; sourceTree = "<group>"; };
-		053F01851EE6EB9D28B26ED427962C84 /* RevanTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanTabBarController.h; sourceTree = "<group>"; };
+		01BB0FD99BFF1A336490E3C2E60F6A2D /* tabbar_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_bg@2x.png"; sourceTree = "<group>"; };
+		0704AC6723E4F62431A4F464D528FB44 /* RevanNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanNavigationController.m; sourceTree = "<group>"; };
 		0759B7C002AC11A73B1226DC20D7B40E /* RevanMainModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevanMainModule.framework; path = RevanMainModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		093ADD8CA9E1195428AD408966801DFC /* tabbar_np_shadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_shadow@2x.png"; sourceTree = "<group>"; };
 		09EA109A37E7822C400E9BDBDC880BB1 /* Pods-RevanMainModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RevanMainModule_Tests-resources.sh"; sourceTree = "<group>"; };
-		0FACD26D6DD345786FA52BFE4BAB10AA /* RevanNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanNavigationController.m; sourceTree = "<group>"; };
+		100A69BD8B362AD848E95DDFB4BC92A0 /* tabbar_np_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_normal@2x.png"; sourceTree = "<group>"; };
 		11D0F4B32FC6AE22DD12A6174AE103CF /* Pods-RevanMainModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RevanMainModule_Example.modulemap"; sourceTree = "<group>"; };
 		15E317C2F0DB26E207F3C0C7C63F6B24 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1678637787E4469CFAAE45C1DAEA2BD4 /* RevanTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanTabBar.m; sourceTree = "<group>"; };
 		16E2842C2F3988506B843C7473385BB7 /* CALayer+RevanLayerAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+RevanLayerAimate.m"; path = "RevanBaseModule/Classes/Category/CALayer+RevanLayerAimate.m"; sourceTree = "<group>"; };
 		17FF5D7FD96BC10EE11FB4DE92E87DAF /* RevanBaseModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RevanBaseModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE4F3A845B5C92B0FB2CD5BF0BC8D01 /* RevanBaseModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevanBaseModule-prefix.pch"; sourceTree = "<group>"; };
+		1E9EF137A1E2DFC47223C42C267FB97E /* RevanMiddleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanMiddleView.m; sourceTree = "<group>"; };
+		20F96478DB955BC603AE74A18019F1E0 /* RevanMiddleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanMiddleView.h; sourceTree = "<group>"; };
 		23BC4E57260F806057E5BD91A64FC243 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25382DD3B4E202B1E61E0F091F57DC18 /* Pods-RevanMainModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevanMainModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		29AE8378004A1384FB7E16214103CD58 /* RevanMiddleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RevanMiddleView.xib; sourceTree = "<group>"; };
-		2E76AEBCA24F36BBC9B6D53EB57EE436 /* tabbar_np_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_normal@2x.png"; sourceTree = "<group>"; };
+		27D22B12E04D906B5DEC0EA0A6A3460C /* tabbar_np_playshadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_playshadow@2x.png"; sourceTree = "<group>"; };
+		2F6AD81A5A33AAADD5A573822EF1E41A /* tabbar_np_shadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_shadow@2x.png"; sourceTree = "<group>"; };
 		300D1C5F8F89868D7E39A72D3E56F7D8 /* Pods-RevanMainModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RevanMainModule_Example-resources.sh"; sourceTree = "<group>"; };
+		3D6CAE71497F9AFDEB6EC6480EC5DAB4 /* tabbar_np_playnon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_playnon@2x.png"; sourceTree = "<group>"; };
 		40349248353655F45BD1F3C9175E3242 /* RevanMainModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevanMainModule.xcconfig; sourceTree = "<group>"; };
-		405670E1B20D2E505E1BA5FD0EBE81B6 /* tabbar_np_playnon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_playnon@2x.png"; sourceTree = "<group>"; };
-		435E9FEC6C6A9698A287DE8D19BAA582 /* zxy_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "zxy_icon@2x.png"; sourceTree = "<group>"; };
-		48E6C1484607752891284F52499011BB /* tabbar_np_playshadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_playshadow@2x.png"; sourceTree = "<group>"; };
 		4910C33B3C38FBEF6A38945CE7D8F3DD /* UIImage+RevanImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+RevanImage.h"; path = "RevanBaseModule/Classes/Category/UIImage+RevanImage.h"; sourceTree = "<group>"; };
+		4D4151B6F1141B8B1EF9C53268671E41 /* zxy_icon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "zxy_icon@2x.png"; sourceTree = "<group>"; };
 		4D8CD597DE43FB5820424994494EC7CC /* Pods-RevanMainModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RevanMainModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		55CBBA149A63B5B717C828EF4AB158C4 /* RevanMainModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevanMainModule-umbrella.h"; sourceTree = "<group>"; };
+		56080B283DBCCE2C4460540F650D480A /* RevanTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanTabBarController.m; sourceTree = "<group>"; };
+		58D2B920A06606850F5E802FB652C7BF /* RevanTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanTabBarController.h; sourceTree = "<group>"; };
 		5C9440F9064A101763A53301426DF34E /* Pods-RevanMainModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RevanMainModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		60E984C986593CD7D6928B9E29835864 /* Pods-RevanMainModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RevanMainModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		616F81CE17330843055EB489DE57B8CD /* RevanBaseModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RevanBaseModule.modulemap; sourceTree = "<group>"; };
-		69248CDD9F9ADEA120282EACD93F0740 /* tabbar_np_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_play@2x.png"; sourceTree = "<group>"; };
+		678F029172454033B939821BDA30335A /* RevanNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanNavigationController.h; sourceTree = "<group>"; };
 		6E224253D44B1F1E0C46922DDE9637FE /* ResourceBundle-RevanMainModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RevanMainModule-Info.plist"; sourceTree = "<group>"; };
-		728A78444DAB44C1FD825EAFCBEA5FE6 /* tabbar_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_bg@2x.png"; sourceTree = "<group>"; };
 		777B34C924D368A558D0D1F756D98612 /* Pods-RevanMainModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RevanMainModule_Tests.modulemap"; sourceTree = "<group>"; };
 		79C0FC0EA4BCC662DDD43F3BC1FCC94F /* Pods-RevanMainModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RevanMainModule_Example-frameworks.sh"; sourceTree = "<group>"; };
 		823736203387C3135FB8908ED578BF5A /* RevanBaseModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevanBaseModule.xcconfig; sourceTree = "<group>"; };
 		835AD574232834BFB51EFB0E0C0B92EF /* RevanBaseModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevanBaseModule-dummy.m"; sourceTree = "<group>"; };
-		83BF0B5812E381C5AFD644E23AF54A4B /* tabbar_np_loop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_loop@2x.png"; sourceTree = "<group>"; };
-		842C35F75046846EDCCC58315D13DEB2 /* RevanMiddleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanMiddleView.m; sourceTree = "<group>"; };
 		899225EC2EB50683D7FB01D19820EE00 /* Pods-RevanMainModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RevanMainModule_Example-dummy.m"; sourceTree = "<group>"; };
+		8C7A6387057A1EE6B596930C90131ACC /* RevanMiddleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RevanMiddleView.xib; sourceTree = "<group>"; };
 		8DBEF298BC9A0940712CDF1F28B5F1AB /* RevanBaseModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevanBaseModule.framework; path = RevanBaseModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC83A688E36A8E0F479EE5EC6D9EC19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C73BE7A7366BAB9F4276DC770B7ACD /* tabbar_np_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_play@2x.png"; sourceTree = "<group>"; };
+		90F18F2B10FC805C5FC78F5DA3220B02 /* RevanNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanNavigationBar.m; sourceTree = "<group>"; };
 		91917AC3E3CC909173C825C0D0F6FBB0 /* RevanMainModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevanMainModule-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95B917DDB57056FC08932FC9F3B4FE21 /* UIImage+RevanImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RevanImage.m"; path = "RevanBaseModule/Classes/Category/UIImage+RevanImage.m"; sourceTree = "<group>"; };
 		97E7FEF946721CF4669067AD500D4C19 /* UIView+RevanView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RevanView.m"; path = "RevanBaseModule/Classes/Category/UIView+RevanView.m"; sourceTree = "<group>"; };
 		99E20B06CA1C804D3C1F2FEA2FE823F6 /* Pods_RevanMainModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RevanMainModule_Example.framework; path = "Pods-RevanMainModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF177F8666847D090BBA9E6E8AABD07 /* tabbar_np_loop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_loop@2x.png"; sourceTree = "<group>"; };
 		A1004F45588C87DA35FCBE3F37B98297 /* CALayer+RevanLayerAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+RevanLayerAimate.h"; path = "RevanBaseModule/Classes/Category/CALayer+RevanLayerAimate.h"; sourceTree = "<group>"; };
 		A29B3F37050B79F57B0508AAA9F30079 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		A5D40305669C24E6A9E70F5E39CD4A4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A90BED4980BDFFEDDAF7E2B7B9365B32 /* Pods-RevanMainModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RevanMainModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B05CA58062746CEE6F7AA993E65F89ED /* RevanNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanNavigationBar.m; sourceTree = "<group>"; };
+		ABA69FBDFA1D7C88D586FD97396F74BA /* RevanTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanTabBar.h; sourceTree = "<group>"; };
 		B42907A275F0603C1C341AF3EDA526AF /* Pods-RevanMainModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevanMainModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B930D6766B3F5E1AB552AFFA0656F23C /* Pods-RevanMainModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevanMainModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BBDFAD9975F41DF4EBEB8ED9FA9BC26C /* RevanTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RevanTabBar.m; sourceTree = "<group>"; };
 		BCE07E9CD9D19DE16E5EBDB66022C526 /* Pods-RevanMainModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RevanMainModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D03B95F2A256F01D2BB879A82DDA06BE /* Pods-RevanMainModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RevanMainModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D362E3B5898C98A5C21CF19824942BB3 /* RevanBaseModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevanBaseModule-umbrella.h"; sourceTree = "<group>"; };
 		D3673D43FB9983035C6671311B4B0F7B /* UIView+RevanView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RevanView.h"; path = "RevanBaseModule/Classes/Category/UIView+RevanView.h"; sourceTree = "<group>"; };
-		D66872B75FD0F4AA3B70E729EDDD6764 /* RevanMiddleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanMiddleView.h; sourceTree = "<group>"; };
 		D709D4DA3FA61E7985CED8E870E48790 /* Pods-RevanMainModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RevanMainModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		DAF521F61DBEC1397112B06493C1CA3A /* Pods-RevanMainModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RevanMainModule_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DC09F05A3AF4901257AC544C133E97AC /* RevanNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanNavigationBar.h; sourceTree = "<group>"; };
-		E382EB0CEE86C3832138672FBDC67FDC /* RevanNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanNavigationController.h; sourceTree = "<group>"; };
-		E80291F7D04CEB921CD27958273EB583 /* RevanTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanTabBar.h; sourceTree = "<group>"; };
+		E482DFD4D4459578654F16038DC6A7F1 /* RevanNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = RevanNavigationBar.h; sourceTree = "<group>"; };
 		E82D5673D9DBB5FD27BD0AD619D90A01 /* RevanMainModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevanMainModule-dummy.m"; sourceTree = "<group>"; };
 		F135A760E87C70DDC0817D911FAFE09A /* Pods_RevanMainModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RevanMainModule_Tests.framework; path = "Pods-RevanMainModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CAC86346901902ECD472E7301B0A64 /* Pods-RevanMainModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RevanMainModule_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -192,6 +192,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022C31BF6EB90756AC249C5CA5DC15D9 /* RevanMiddle */ = {
+			isa = PBXGroup;
+			children = (
+				8C7A6387057A1EE6B596930C90131ACC /* RevanMiddleView.xib */,
+			);
+			name = RevanMiddle;
+			path = RevanMiddle;
+			sourceTree = "<group>";
+		};
 		0BB5B3996236FF3FB7387604BAE48991 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,15 +232,6 @@
 			);
 			name = RevanMainModule;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		1B9A3294A17F5F98C0E3B70440946F75 /* RevanMainModule */ = {
-			isa = PBXGroup;
-			children = (
-				8713F7C0DAAEC714A02EC98B28C400D6 /* Assets */,
-			);
-			name = RevanMainModule;
-			path = RevanMainModule;
 			sourceTree = "<group>";
 		};
 		1BA99F63960F7A2CE99638B808909F92 /* Pods-RevanMainModule_Example */ = {
@@ -270,6 +270,16 @@
 			path = "Target Support Files/Pods-RevanMainModule_Tests";
 			sourceTree = "<group>";
 		};
+		42B44A307A93902BC81455870A588690 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				915BFBF3461C2C1D2B87B2F88B98A472 /* Controllers */,
+				FF9FCE68BA6CE254F468C00366DDC419 /* Views */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		539E3E496F8F2B8F78D83B47D561DAF6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,10 +289,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		544512DAB019EA5F41D6825CB2CF2ADD /* RevanTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				01BB0FD99BFF1A336490E3C2E60F6A2D /* tabbar_bg@2x.png */,
+				9FF177F8666847D090BBA9E6E8AABD07 /* tabbar_np_loop@2x.png */,
+				100A69BD8B362AD848E95DDFB4BC92A0 /* tabbar_np_normal@2x.png */,
+				90C73BE7A7366BAB9F4276DC770B7ACD /* tabbar_np_play@2x.png */,
+				3D6CAE71497F9AFDEB6EC6480EC5DAB4 /* tabbar_np_playnon@2x.png */,
+				27D22B12E04D906B5DEC0EA0A6A3460C /* tabbar_np_playshadow@2x.png */,
+				2F6AD81A5A33AAADD5A573822EF1E41A /* tabbar_np_shadow@2x.png */,
+				4D4151B6F1141B8B1EF9C53268671E41 /* zxy_icon@2x.png */,
+			);
+			name = RevanTabBar;
+			path = RevanTabBar;
+			sourceTree = "<group>";
+		};
 		550897711477A76B98260D66171E2690 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1B9A3294A17F5F98C0E3B70440946F75 /* RevanMainModule */,
+				AF7DEAD9F21EC3C74EB549F4EDBCEF8E /* RevanMainModule */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -332,17 +358,23 @@
 			);
 			sourceTree = "<group>";
 		};
-		8713F7C0DAAEC714A02EC98B28C400D6 /* Assets */ = {
+		915BFBF3461C2C1D2B87B2F88B98A472 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				728A78444DAB44C1FD825EAFCBEA5FE6 /* tabbar_bg@2x.png */,
-				83BF0B5812E381C5AFD644E23AF54A4B /* tabbar_np_loop@2x.png */,
-				2E76AEBCA24F36BBC9B6D53EB57EE436 /* tabbar_np_normal@2x.png */,
-				69248CDD9F9ADEA120282EACD93F0740 /* tabbar_np_play@2x.png */,
-				405670E1B20D2E505E1BA5FD0EBE81B6 /* tabbar_np_playnon@2x.png */,
-				48E6C1484607752891284F52499011BB /* tabbar_np_playshadow@2x.png */,
-				093ADD8CA9E1195428AD408966801DFC /* tabbar_np_shadow@2x.png */,
-				435E9FEC6C6A9698A287DE8D19BAA582 /* zxy_icon@2x.png */,
+				678F029172454033B939821BDA30335A /* RevanNavigationController.h */,
+				0704AC6723E4F62431A4F464D528FB44 /* RevanNavigationController.m */,
+				58D2B920A06606850F5E802FB652C7BF /* RevanTabBarController.h */,
+				56080B283DBCCE2C4460540F650D480A /* RevanTabBarController.m */,
+			);
+			name = Controllers;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9D4EB8D69F3C09E859207D03C4E4B731 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				022C31BF6EB90756AC249C5CA5DC15D9 /* RevanMiddle */,
+				544512DAB019EA5F41D6825CB2CF2ADD /* RevanTabBar */,
 			);
 			name = Assets;
 			path = Assets;
@@ -356,19 +388,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		AE61F4ED76DA403BFDF1A3C2AF56445E /* Views */ = {
+		AF7DEAD9F21EC3C74EB549F4EDBCEF8E /* RevanMainModule */ = {
 			isa = PBXGroup;
 			children = (
-				D66872B75FD0F4AA3B70E729EDDD6764 /* RevanMiddleView.h */,
-				842C35F75046846EDCCC58315D13DEB2 /* RevanMiddleView.m */,
-				29AE8378004A1384FB7E16214103CD58 /* RevanMiddleView.xib */,
-				DC09F05A3AF4901257AC544C133E97AC /* RevanNavigationBar.h */,
-				B05CA58062746CEE6F7AA993E65F89ED /* RevanNavigationBar.m */,
-				E80291F7D04CEB921CD27958273EB583 /* RevanTabBar.h */,
-				1678637787E4469CFAAE45C1DAEA2BD4 /* RevanTabBar.m */,
+				9D4EB8D69F3C09E859207D03C4E4B731 /* Assets */,
 			);
-			name = Views;
-			path = Views;
+			name = RevanMainModule;
+			path = RevanMainModule;
 			sourceTree = "<group>";
 		};
 		B81E5B46930994C3069C22765B5066A9 /* RevanBaseModule */ = {
@@ -417,32 +443,24 @@
 		E90F2F32C868767AED4CE80F56DDCCFD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F3FBB3D3FB1F10912D3F0AE4250AEC2E /* Classes */,
+				42B44A307A93902BC81455870A588690 /* Classes */,
 			);
 			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		F3FBB3D3FB1F10912D3F0AE4250AEC2E /* Classes */ = {
+		FF9FCE68BA6CE254F468C00366DDC419 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F59A9649DA1490FDF49CB13DBC12EA14 /* Controllers */,
-				AE61F4ED76DA403BFDF1A3C2AF56445E /* Views */,
+				20F96478DB955BC603AE74A18019F1E0 /* RevanMiddleView.h */,
+				1E9EF137A1E2DFC47223C42C267FB97E /* RevanMiddleView.m */,
+				E482DFD4D4459578654F16038DC6A7F1 /* RevanNavigationBar.h */,
+				90F18F2B10FC805C5FC78F5DA3220B02 /* RevanNavigationBar.m */,
+				ABA69FBDFA1D7C88D586FD97396F74BA /* RevanTabBar.h */,
+				BBDFAD9975F41DF4EBEB8ED9FA9BC26C /* RevanTabBar.m */,
 			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		F59A9649DA1490FDF49CB13DBC12EA14 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				E382EB0CEE86C3832138672FBDC67FDC /* RevanNavigationController.h */,
-				0FACD26D6DD345786FA52BFE4BAB10AA /* RevanNavigationController.m */,
-				053F01851EE6EB9D28B26ED427962C84 /* RevanTabBarController.h */,
-				02B74772B6CBFD23EF160888B06189AA /* RevanTabBarController.m */,
-			);
-			name = Controllers;
-			path = Controllers;
+			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -531,7 +549,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 344A02914BB13DD88E3B83D16D33700E /* Build configuration list for PBXNativeTarget "RevanMainModule" */;
 			buildPhases = (
-				FB581605D08E8FE3F53005DFF3CD2BB5 /* Sources */,
+				8A83FD7ECD39FB550E7AF50A1EC3DEA9 /* Sources */,
 				A9A7A31E51FDA664CC313E3FA350FAF2 /* Frameworks */,
 				A15808DCFD15955F4F2F8F825ED93641 /* Resources */,
 				66EE30A68BA14D3D935C52D172F671A0 /* Headers */,
@@ -570,7 +588,7 @@
 			buildPhases = (
 				AD1ABC11E8D413BB574BACD481918089 /* Sources */,
 				5C15BCED5B85D4A9F38B7CAAA1BA1E6C /* Frameworks */,
-				81F23345908267626201176D64C27034 /* Resources */,
+				51D1BEDC02F0902BA678A0019050CCDB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -612,18 +630,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		81F23345908267626201176D64C27034 /* Resources */ = {
+		51D1BEDC02F0902BA678A0019050CCDB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AFF65EAFD28D3A5A817870B31114C8B /* tabbar_bg@2x.png in Resources */,
-				30ACE5092E688B661129E6A5CEE15654 /* tabbar_np_loop@2x.png in Resources */,
-				3A6253CA4E92F1C35F7FB830465D8F4D /* tabbar_np_normal@2x.png in Resources */,
-				C2F4DD9E1B6EAADF1EB52E261CF579D3 /* tabbar_np_play@2x.png in Resources */,
-				A2B7A3221B8A9B766B7BB91E515C3DD6 /* tabbar_np_playnon@2x.png in Resources */,
-				D9E03710E21E9C83EAF4303DAC76C833 /* tabbar_np_playshadow@2x.png in Resources */,
-				BF189B1053F54DAA3ABA5D7B58CCA8E4 /* tabbar_np_shadow@2x.png in Resources */,
-				65A9E8254EAE43F286BED85309ABA132 /* zxy_icon@2x.png in Resources */,
+				15F35557F3190F9C3F8D0143D29A6A46 /* RevanMiddleView.xib in Resources */,
+				ABD184497A809E3DEABA4695D4CFA576 /* tabbar_bg@2x.png in Resources */,
+				72B3863A02949F6F8DD55A5B3C33509A /* tabbar_np_loop@2x.png in Resources */,
+				DC9B19B815F95E531AC003C43400DA50 /* tabbar_np_normal@2x.png in Resources */,
+				28F43FF40C421D7828D0A3BE25960E87 /* tabbar_np_play@2x.png in Resources */,
+				5153CCEDCB33CB532F005A36F353D6E7 /* tabbar_np_playnon@2x.png in Resources */,
+				E9BDA21CADFFE6FF1031507F81EB3C28 /* tabbar_np_playshadow@2x.png in Resources */,
+				B220B7647163E4FDED6E9143C957782C /* tabbar_np_shadow@2x.png in Resources */,
+				11F44D9BACA370A4426B5E3D32AE6032 /* zxy_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +662,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A6808CE788DEB0DC2305000A4770773 /* Pods-RevanMainModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A83FD7ECD39FB550E7AF50A1EC3DEA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E18C04531C85689401D9EAF38B410C /* RevanMainModule-dummy.m in Sources */,
+				A6E9C25CDE4E81C9E847A30B04B79752 /* RevanMiddleView.m in Sources */,
+				29117D9ACF242F02882C982E857A5325 /* RevanNavigationBar.m in Sources */,
+				A530C6ECC671EC16A0120D3F9A084954 /* RevanNavigationController.m in Sources */,
+				1C6C53137E64FCFE8DF67FBC6846DE67 /* RevanTabBar.m in Sources */,
+				F5EF0B5FD9126647E4878B60C9F42DF8 /* RevanTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -669,20 +701,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F4D065F7E294873C43AA8204860AF0B /* Pods-RevanMainModule_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB581605D08E8FE3F53005DFF3CD2BB5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D7B1B86CA618FE84360AEDADD1CB443 /* RevanMainModule-dummy.m in Sources */,
-				6CB3E181B0ACAF09F59CD51ED8A70192 /* RevanMiddleView.m in Sources */,
-				5BF80B39F5A2F6ECB2100C03F191F2D5 /* RevanMiddleView.xib in Sources */,
-				4613627EDA507FC20C2CEDFD69FDF949 /* RevanNavigationBar.m in Sources */,
-				8E7D20B90F876C7313226147BE06A99C /* RevanNavigationController.m in Sources */,
-				41E681403DDD0901378A5DC30A6199F8 /* RevanTabBar.m in Sources */,
-				16C58D48FCF4657F93917FF6304C1695 /* RevanTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
