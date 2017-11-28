@@ -22,7 +22,7 @@
  @param Class xib当前类
  @param xibName xib文件名称
  */
-#define RevanLoadingCurrentNib(Class, xibName) [[[NSBundle bundleForClass:Class] loadNibNamed:xibName owner:nil options:nil] firstObject]
+#define RevanLoadingCurrentNib(Class, xibName) [[[NSBundle bundleForClass:Class] loadNibNamed:[NSString stringWithFormat:@"%@/%@", @"RevanMainModule.bundle", xibName] owner:nil options:nil] firstObject]
 
 /** 当前bundle */
 #define RevanCurrentBundle(Class) [NSBundle bundleForClass:Class]
@@ -65,9 +65,7 @@ static RevanMiddleView *share_Instance;
 }
 
 + (instancetype)middleView {
-    
-    NSBundle *currenBundle = [NSBundle bundleForClass:self];
-    RevanMiddleView *middleView = [[currenBundle loadNibNamed:@"RevanMiddleView" owner:nil options:nil] firstObject];
+    RevanMiddleView *middleView = RevanLoadingCurrentNib(self, @"RevanMiddleView");
     return middleView;
 }
 
