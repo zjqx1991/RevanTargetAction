@@ -1,5 +1,5 @@
 PODS:
-  - RevanBaseModule/Category (0.4.0)
+  - RevanBaseModule/Category (0.6.0)
   - RevanMainModule (0.4.0):
     - RevanBaseModule/Category
 
@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RevanBaseModule: 4156320634603eb085313a51390631ee0176c98f
+  RevanBaseModule: c8d55191f005e408a4dbc717cafd96b2a6bb2602
   RevanMainModule: 937abfebaaaaada5ac084ad141a9b599b6244d06
 
 PODFILE CHECKSUM: 76a619fe0db6e858cb365ae623a19aa572d4b6ce

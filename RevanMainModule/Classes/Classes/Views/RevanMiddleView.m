@@ -8,7 +8,7 @@
 
 #import "RevanMiddleView.h"
 #import "CALayer+RevanLayerAimate.h"
-
+#import "UIImage+RevanImage.h"
 
 /**
  加载 mainBundle中的xib文件
@@ -23,14 +23,6 @@
  @param xibName xib文件名称
  */
 #define RevanLoadingCurrentNib(Class, xibName) [[[NSBundle bundleForClass:Class] loadNibNamed:[NSString stringWithFormat:@"%@/%@", @"RevanMainModule.bundle", xibName] owner:nil options:nil] firstObject]
-
-/** 当前bundle */
-#define RevanCurrentBundle(Class) [NSBundle bundleForClass:Class]
-/** 当前屏幕比例 */
-#define RevanScreenScale (NSInteger)[UIScreen mainScreen].scale
-/** 图片路径 */
-#define RevanImagePath(Class ,imageName, bundleName) [[NSBundle bundleForClass:Class] pathForResource:[NSString stringWithFormat:@"%@@%zdx.png", imageName, RevanScreenScale] ofType:nil inDirectory:[NSString stringWithFormat:@"%@.bundle", bundleName]]
-
 
 
 @interface RevanMiddleView()
@@ -97,12 +89,11 @@ static RevanMiddleView *share_Instance;
     // 监听播放图片的通知
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setPlayImage:) name:@"playImage" object:nil];
     
-    NSString *imgPath = RevanImagePath([self class], @"tabbar_np_normal", @"RevanMainModule");
-    self.middleBgNormalImageView.image = [UIImage imageWithContentsOfFile:imgPath];
+    self.middleBgNormalImageView.image = [UIImage revan_imageName:@"tabbar_np_normal" inDirectoryBundleName:@"RevanMainModule" commandClass:[self class]];
     
-    self.middleBgShadowImageView.image = [UIImage imageWithContentsOfFile:RevanImagePath([self class] ,@"tabbar_np_shadow", @"RevanMainModule")];
+    self.middleBgShadowImageView.image = [UIImage revan_imageName:@"tabbar_np_shadow" inDirectoryBundleName:@"RevanMainModule" commandClass:[self class]];
     
-    self.middleBgPlayImageView.image = [UIImage imageWithContentsOfFile:RevanImagePath([self class] ,@"tabbar_np_playshadow", @"RevanMainModule")];
+    self.middleBgPlayImageView.image = [UIImage revan_imageName:@"tabbar_np_playshadow" inDirectoryBundleName:@"RevanMainModule" commandClass:[self class]];
 }
 
 -(void)layoutSubviews {

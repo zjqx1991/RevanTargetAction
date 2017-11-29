@@ -9,10 +9,11 @@
 #import "RevanTabBar.h"
 #import "RevanMiddleView.h"
 #import "UIView+RevanView.h"
-
+#import "UIImage+RevanImage.h"
 
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
 
 @interface RevanTabBar()
 /** 中间播放按钮 */
@@ -34,11 +35,7 @@
     // 设置样式, 去除tabbar上面的黑线
     self.barStyle = UIBarStyleBlack;
     // 设置tabbar 背景图片
-    // car, mainBundle
-    NSBundle *currentBundle = [NSBundle bundleForClass:[self class]];
-    NSString *imagePath = [currentBundle pathForResource:@"tabbar_bg@2x.png" ofType:nil inDirectory:@"RevanMainModule.bundle"];
-    UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
-    self.backgroundImage = image;
+    self.backgroundImage = [UIImage revan_imageName:@"tabbar_bg" inDirectoryBundleName:@"RevanMainModule" commandClass:[self class]];
 }
 
 
@@ -69,7 +66,6 @@
             index ++;
         }
     }
-    
     // 添加一个按钮, 准备放在中间
     CGFloat width = 65;
     CGFloat height = 65;

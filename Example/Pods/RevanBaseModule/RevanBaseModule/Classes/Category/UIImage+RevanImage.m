@@ -35,4 +35,27 @@
     return resultImage;
 }
 
+/**
+ 通过路径加载组件中的图片资源
+ 
+ @param imageName 图片名称
+ @param bundle 图片所在bundle
+ @param Class 图片所在类
+ @return 图片
+ */
++ (instancetype)revan_imageName:(NSString *)imageName inDirectoryBundleName:(NSString *)bundleName commandClass:(Class)Class {
+    /** 屏幕比 */
+    NSInteger scale = (NSInteger)[[UIScreen mainScreen] scale];
+    /** 当前Bundle */
+    NSBundle *currentBundle = [NSBundle bundleForClass:Class];
+    /** 图片完整名称 */
+    NSString *name = [NSString stringWithFormat:@"%@@%zdx",imageName,scale];
+    /** 图片所属bundle */
+    NSString *bundleNames = [NSString stringWithFormat:@"%@.bundle",bundleName];
+    /** 图片资源路径 */
+    NSString *imagePath = [currentBundle pathForResource:name ofType:@"png" inDirectory:bundleNames];
+    return imagePath ? [UIImage imageWithContentsOfFile:imagePath] : nil;
+}
+
+
 @end
