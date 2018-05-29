@@ -26,6 +26,25 @@
 }
 
 
+/**
+ 添加子控制器
+ 
+ @param params 参数顺序
+ [0] vc                子控制器
+ [1] normalImageName   普通状态下图片
+ [2] selectedImageName 选中图片
+ [3] isRequired        是否需要包装导航控制器
+ */
++ (void)revanAPI_addChildVC:(NSArray *)params {
+    UIViewController *vc = params[0];
+    NSString *nImg = params[1];
+    NSString *sImg = params[2];
+    BOOL isRequired = params[3];
+    
+    [self revanAPI_addChildVC:vc normalImageName:nImg selectedImageName:sImg isRequiredNavController:isRequired];
+}
+
+
 + (void)revanAPI_setTabbarMiddleBtnClick: (void(^)(BOOL isPlaying))middleClickBlock {
     
     RevanTabBar *tabbar = (RevanTabBar *)[RevanTabBarController shareInstance].tabBar;

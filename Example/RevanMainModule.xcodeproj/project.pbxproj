@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0461024920BDA92100A9547D /* RevanTargetAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461024820BDA92100A9547D /* RevanTargetAction.m */; };
+		0461024C20BDAC2000A9547D /* RevanTargetAction+RevanMainAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461024B20BDAC2000A9547D /* RevanTargetAction+RevanMainAPI.m */; };
 		04F540241FCC89E90002CC75 /* RevanOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F540231FCC89E90002CC75 /* RevanOneViewController.m */; };
 		04F540271FCC8B1F0002CC75 /* RevanTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F540261FCC8B1F0002CC75 /* RevanTwoViewController.m */; };
 		0D938A1EC07661650A2FE25F /* Pods_RevanMainModule_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E158E5B71915DD4E0AA168 /* Pods_RevanMainModule_Example.framework */; };
@@ -39,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0461024720BDA92100A9547D /* RevanTargetAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevanTargetAction.h; sourceTree = "<group>"; };
+		0461024820BDA92100A9547D /* RevanTargetAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevanTargetAction.m; sourceTree = "<group>"; };
+		0461024A20BDAC2000A9547D /* RevanTargetAction+RevanMainAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RevanTargetAction+RevanMainAPI.h"; sourceTree = "<group>"; };
+		0461024B20BDAC2000A9547D /* RevanTargetAction+RevanMainAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RevanTargetAction+RevanMainAPI.m"; sourceTree = "<group>"; };
 		04F540221FCC89E90002CC75 /* RevanOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevanOneViewController.h; sourceTree = "<group>"; };
 		04F540231FCC89E90002CC75 /* RevanOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RevanOneViewController.m; sourceTree = "<group>"; };
 		04F540251FCC8B1F0002CC75 /* RevanTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RevanTwoViewController.h; sourceTree = "<group>"; };
@@ -101,6 +107,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0461024620BDA91100A9547D /* RevanTargetAction */ = {
+			isa = PBXGroup;
+			children = (
+				0461024720BDA92100A9547D /* RevanTargetAction.h */,
+				0461024820BDA92100A9547D /* RevanTargetAction.m */,
+				0461024A20BDAC2000A9547D /* RevanTargetAction+RevanMainAPI.h */,
+				0461024B20BDAC2000A9547D /* RevanTargetAction+RevanMainAPI.m */,
+			);
+			path = RevanTargetAction;
+			sourceTree = "<group>";
+		};
 		115413B253A20D5622B9B29B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +166,7 @@
 		6003F593195388D20070C39A /* Example for RevanMainModule */ = {
 			isa = PBXGroup;
 			children = (
+				0461024620BDA91100A9547D /* RevanTargetAction */,
 				6003F59C195388D20070C39A /* RevanAppDelegate.h */,
 				6003F59D195388D20070C39A /* RevanAppDelegate.m */,
 				04F540221FCC89E90002CC75 /* RevanOneViewController.h */,
@@ -412,6 +430,8 @@
 				04F540241FCC89E90002CC75 /* RevanOneViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				04F540271FCC8B1F0002CC75 /* RevanTwoViewController.m in Sources */,
+				0461024C20BDAC2000A9547D /* RevanTargetAction+RevanMainAPI.m in Sources */,
+				0461024920BDA92100A9547D /* RevanTargetAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -28,6 +28,17 @@
 + (void)revanAPI_addChildVC: (UIViewController *)vc normalImageName: (NSString *)normalImageName selectedImageName:(NSString *)selectedImageName isRequiredNavController: (BOOL)isRequired;
 
 /**
+ 添加子控制器
+
+ @param params 参数顺序
+ [0] vc                子控制器
+ [1] normalImageName   普通状态下图片
+ [2] selectedImageName 选中图片
+ [3] isRequired        是否需要包装导航控制器
+ */
++ (void)revanAPI_addChildVC:(NSArray *)params;
+
+/**
  设置tabbar中间控件的点击代码块
  
  @param middleClickBlock 点击代码块

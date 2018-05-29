@@ -16,10 +16,11 @@
 
 @end
 
-static RevanTabBarController *tabbarC;
+
 
 @implementation RevanTabBarController
 
+static RevanTabBarController *tabbarC = nil;
 + (instancetype)shareInstance {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
@@ -40,7 +41,7 @@ static RevanTabBarController *tabbarC;
 
 + (instancetype)revan_tabBarControllerWithAddChildVCsBlock: (void(^)(RevanTabBarController *tabBarC))addVCBlock {
     
-    RevanTabBarController *tabbarVC = [[RevanTabBarController alloc] init];
+    RevanTabBarController *tabbarVC = [RevanTabBarController shareInstance];
     if (addVCBlock) {
         addVCBlock(tabbarVC);
     }
